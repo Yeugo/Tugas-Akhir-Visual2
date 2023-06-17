@@ -1,8 +1,8 @@
 object Form1: TForm1
-  Left = 190
-  Top = 128
+  Left = 245
+  Top = 218
   Width = 1250
-  Height = 627
+  Height = 631
   Caption = 'Input Data Siswa'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -14,98 +14,98 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object l1: TLabel
-    Left = 32
+    Left = 24
     Top = 96
     Width = 24
     Height = 13
     Caption = 'NISN'
   end
   object l2: TLabel
-    Left = 32
+    Left = 24
     Top = 128
     Width = 57
     Height = 13
     Caption = 'Nama Siswa'
   end
   object l3: TLabel
-    Left = 32
+    Left = 24
     Top = 160
     Width = 17
     Height = 13
     Caption = 'NIK'
   end
   object l4: TLabel
-    Left = 32
+    Left = 24
     Top = 192
     Width = 62
     Height = 13
     Caption = 'Tempat Lahir'
   end
   object l5: TLabel
-    Left = 32
+    Left = 24
     Top = 256
     Width = 63
     Height = 13
     Caption = 'Jenis Kelamin'
   end
   object l6: TLabel
-    Left = 368
+    Left = 360
     Top = 64
     Width = 63
     Height = 13
     Caption = 'Tingkat Kelas'
   end
   object l7: TLabel
-    Left = 368
+    Left = 360
     Top = 96
     Width = 38
     Height = 13
     Caption = 'Jurusan'
   end
   object l8: TLabel
-    Left = 368
+    Left = 360
     Top = 128
     Width = 48
     Height = 13
     Caption = 'Wali Kelas'
   end
   object l9: TLabel
-    Left = 368
+    Left = 360
     Top = 160
     Width = 33
     Height = 13
     Caption = 'Alamat'
   end
   object l10: TLabel
-    Left = 368
+    Left = 360
     Top = 192
     Width = 38
     Height = 13
     Caption = 'Telepon'
   end
   object l11: TLabel
-    Left = 368
+    Left = 360
     Top = 224
     Width = 13
     Height = 13
     Caption = 'Hp'
   end
   object l12: TLabel
-    Left = 368
+    Left = 360
     Top = 256
     Width = 31
     Height = 13
     Caption = 'Status'
   end
   object l13: TLabel
-    Left = 32
+    Left = 24
     Top = 64
     Width = 17
     Height = 13
     Caption = 'NIS'
   end
   object l14: TLabel
-    Left = 32
+    Left = 24
     Top = 224
     Width = 64
     Height = 13
@@ -152,67 +152,67 @@ object Form1: TForm1
     Top = 24
     Width = 75
     Height = 25
-    Caption = 'Laporan'
+    Caption = 'Print'
     TabOrder = 4
   end
   object e2: TEdit
-    Left = 112
+    Left = 104
     Top = 64
     Width = 233
     Height = 21
     TabOrder = 5
   end
   object e3: TEdit
-    Left = 112
+    Left = 104
     Top = 96
     Width = 233
     Height = 21
     TabOrder = 6
   end
   object e4: TEdit
-    Left = 112
+    Left = 104
     Top = 128
     Width = 233
     Height = 21
     TabOrder = 7
   end
   object e5: TEdit
-    Left = 112
+    Left = 104
     Top = 160
     Width = 233
     Height = 21
     TabOrder = 8
   end
   object e6: TEdit
-    Left = 112
+    Left = 104
     Top = 192
     Width = 233
     Height = 21
     TabOrder = 9
   end
   object e11: TEdit
-    Left = 448
+    Left = 440
     Top = 128
     Width = 233
     Height = 21
     TabOrder = 10
   end
   object e13: TEdit
-    Left = 448
+    Left = 440
     Top = 192
     Width = 233
     Height = 21
     TabOrder = 11
   end
   object e14: TEdit
-    Left = 448
+    Left = 440
     Top = 224
     Width = 233
     Height = 21
     TabOrder = 12
   end
   object dg1: TDBGrid
-    Left = 32
+    Left = 24
     Top = 296
     Width = 1201
     Height = 225
@@ -339,7 +339,7 @@ object Form1: TForm1
       end>
   end
   object dtp1: TDateTimePicker
-    Left = 112
+    Left = 104
     Top = 224
     Width = 233
     Height = 21
@@ -348,7 +348,7 @@ object Form1: TForm1
     TabOrder = 14
   end
   object c1: TComboBox
-    Left = 112
+    Left = 104
     Top = 256
     Width = 233
     Height = 21
@@ -359,7 +359,7 @@ object Form1: TForm1
       'Perempuan')
   end
   object c2: TComboBox
-    Left = 448
+    Left = 440
     Top = 64
     Width = 233
     Height = 21
@@ -371,7 +371,7 @@ object Form1: TForm1
       'XII')
   end
   object c3: TComboBox
-    Left = 448
+    Left = 440
     Top = 96
     Width = 233
     Height = 21
@@ -383,7 +383,7 @@ object Form1: TForm1
       'IPS')
   end
   object c4: TComboBox
-    Left = 448
+    Left = 440
     Top = 256
     Width = 233
     Height = 21
@@ -394,7 +394,7 @@ object Form1: TForm1
       'Tidak Aktif')
   end
   object e1: TEdit
-    Left = 448
+    Left = 440
     Top = 160
     Width = 233
     Height = 21
@@ -413,7 +413,7 @@ object Form1: TForm1
     LibraryLocation = 
       'C:\Users\ACER\Documents\Kuliah\Visual\Visual2\Project-akhir\libm' +
       'ysql.dll'
-    Left = 8
+    Left = 24
     Top = 8
   end
   object zqry1: TZQuery
@@ -422,12 +422,12 @@ object Form1: TForm1
     SQL.Strings = (
       'select * from tb_siswa')
     Params = <>
-    Left = 40
+    Left = 56
     Top = 8
   end
   object d1: TDataSource
     DataSet = zqry1
-    Left = 72
+    Left = 88
     Top = 8
   end
 end
