@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 180
-  Top = 198
+  Left = 190
+  Top = 128
   Width = 1250
   Height = 627
   Caption = 'Input Data Siswa'
@@ -111,111 +111,105 @@ object Form1: TForm1
     Height = 13
     Caption = 'Tanggal Lahir'
   end
-  object b1: TButton
-    Left = 112
-    Top = 24
-    Width = 75
-    Height = 25
-    Caption = 'Baru'
-    TabOrder = 0
-    OnClick = b1Click
-  end
   object b3: TButton
-    Left = 200
+    Left = 248
     Top = 24
     Width = 75
     Height = 25
     Caption = 'Simpan'
-    TabOrder = 1
+    TabOrder = 0
     OnClick = b3Click
   end
   object b4: TButton
-    Left = 288
+    Left = 336
     Top = 24
     Width = 75
     Height = 25
     Caption = 'Edit'
-    TabOrder = 2
+    TabOrder = 1
+    OnClick = b4Click
   end
   object b5: TButton
-    Left = 376
+    Left = 424
     Top = 24
     Width = 75
     Height = 25
     Caption = 'Hapus'
-    TabOrder = 3
+    TabOrder = 2
+    OnClick = b5Click
   end
   object b6: TButton
-    Left = 464
+    Left = 512
     Top = 24
     Width = 75
     Height = 25
-    Caption = 'Batal'
-    TabOrder = 4
+    Caption = 'Clear Form'
+    TabOrder = 3
+    OnClick = b6Click
   end
   object b2: TButton
-    Left = 552
+    Left = 600
     Top = 24
     Width = 75
     Height = 25
     Caption = 'Laporan'
-    TabOrder = 5
+    TabOrder = 4
   end
   object e2: TEdit
     Left = 112
     Top = 64
     Width = 233
     Height = 21
-    TabOrder = 6
+    TabOrder = 5
   end
   object e3: TEdit
     Left = 112
     Top = 96
     Width = 233
     Height = 21
-    TabOrder = 7
+    TabOrder = 6
   end
   object e4: TEdit
     Left = 112
     Top = 128
     Width = 233
     Height = 21
-    TabOrder = 8
+    TabOrder = 7
   end
   object e5: TEdit
     Left = 112
     Top = 160
     Width = 233
     Height = 21
-    TabOrder = 9
+    TabOrder = 8
   end
   object e6: TEdit
     Left = 112
     Top = 192
     Width = 233
     Height = 21
-    TabOrder = 10
+    TabOrder = 9
   end
   object e11: TEdit
     Left = 448
     Top = 128
     Width = 233
     Height = 21
-    TabOrder = 11
+    TabOrder = 10
   end
   object e13: TEdit
     Left = 448
     Top = 192
     Width = 233
     Height = 21
-    TabOrder = 12
+    TabOrder = 11
   end
   object e14: TEdit
     Left = 448
     Top = 224
     Width = 233
     Height = 21
-    TabOrder = 13
+    TabOrder = 12
   end
   object dg1: TDBGrid
     Left = 32
@@ -223,12 +217,13 @@ object Form1: TForm1
     Width = 1201
     Height = 225
     DataSource = d1
-    TabOrder = 14
+    TabOrder = 13
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
     TitleFont.Name = 'Tahoma'
     TitleFont.Style = []
+    OnCellClick = dg1CellClick
     Columns = <
       item
         Alignment = taCenter
@@ -350,7 +345,7 @@ object Form1: TForm1
     Height = 21
     Date = 45094.730822800930000000
     Time = 45094.730822800930000000
-    TabOrder = 15
+    TabOrder = 14
   end
   object c1: TComboBox
     Left = 112
@@ -358,7 +353,7 @@ object Form1: TForm1
     Width = 233
     Height = 21
     ItemHeight = 13
-    TabOrder = 16
+    TabOrder = 15
     Items.Strings = (
       'Laki-Laki'
       'Perempuan')
@@ -369,7 +364,7 @@ object Form1: TForm1
     Width = 233
     Height = 21
     ItemHeight = 13
-    TabOrder = 17
+    TabOrder = 16
     Items.Strings = (
       'X'
       'XI'
@@ -381,7 +376,7 @@ object Form1: TForm1
     Width = 233
     Height = 21
     ItemHeight = 13
-    TabOrder = 18
+    TabOrder = 17
     Items.Strings = (
       'BAHASA'
       'IPA'
@@ -393,7 +388,7 @@ object Form1: TForm1
     Width = 233
     Height = 21
     ItemHeight = 13
-    TabOrder = 19
+    TabOrder = 18
     Items.Strings = (
       'Aktif'
       'Tidak Aktif')
@@ -403,7 +398,7 @@ object Form1: TForm1
     Top = 160
     Width = 233
     Height = 21
-    TabOrder = 20
+    TabOrder = 19
   end
   object con1: TZConnection
     ControlsCodePage = cGET_ACP
