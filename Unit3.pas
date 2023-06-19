@@ -12,8 +12,10 @@ type
     Menu1: TMenuItem;
     InputDataSiswa1: TMenuItem;
     InputDataKelas1: TMenuItem;
+    InputDataWaliKelas1: TMenuItem;
     procedure InputDataSiswa1Click(Sender: TObject);
     procedure InputDataKelas1Click(Sender: TObject);
+    procedure InputDataWaliKelas1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -25,7 +27,7 @@ var
 
 implementation
 
-uses Unit1, Unit2;
+uses Unit1, Unit2, Unit4;
 
 {$R *.dfm}
 
@@ -41,6 +43,13 @@ begin
   if Form2=nil then
   Form2:=TForm2.Create(Application);
   Form2.Show;
+end;
+
+procedure TForm3.InputDataWaliKelas1Click(Sender: TObject);
+begin
+  if Form4=nil then
+  Form4:=TForm4.Create(Application);
+  Form4.Show;
 end;
 
 end.

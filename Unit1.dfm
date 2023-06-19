@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 245
-  Top = 218
+  Left = 2
+  Top = 170
   Width = 1250
   Height = 631
   Caption = 'Input Data Siswa'
@@ -155,56 +155,56 @@ object Form1: TForm1
     Caption = 'Print'
     TabOrder = 4
   end
-  object e2: TEdit
+  object e1: TEdit
     Left = 104
     Top = 64
     Width = 233
     Height = 21
     TabOrder = 5
   end
-  object e3: TEdit
+  object e2: TEdit
     Left = 104
     Top = 96
     Width = 233
     Height = 21
     TabOrder = 6
   end
-  object e4: TEdit
+  object e3: TEdit
     Left = 104
     Top = 128
     Width = 233
     Height = 21
     TabOrder = 7
   end
-  object e5: TEdit
+  object e4: TEdit
     Left = 104
     Top = 160
     Width = 233
     Height = 21
     TabOrder = 8
   end
-  object e6: TEdit
+  object e5: TEdit
     Left = 104
     Top = 192
     Width = 233
     Height = 21
     TabOrder = 9
   end
-  object e11: TEdit
+  object e6: TEdit
     Left = 440
     Top = 128
     Width = 233
     Height = 21
     TabOrder = 10
   end
-  object e13: TEdit
+  object e8: TEdit
     Left = 440
     Top = 192
     Width = 233
     Height = 21
     TabOrder = 11
   end
-  object e14: TEdit
+  object e9: TEdit
     Left = 440
     Top = 224
     Width = 233
@@ -393,7 +393,7 @@ object Form1: TForm1
       'Aktif'
       'Tidak Aktif')
   end
-  object e1: TEdit
+  object e7: TEdit
     Left = 440
     Top = 160
     Width = 233
