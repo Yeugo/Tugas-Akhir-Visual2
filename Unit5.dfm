@@ -1,6 +1,6 @@
 object Form5: TForm5
-  Left = 193
-  Top = 176
+  Left = 243
+  Top = 190
   Width = 1013
   Height = 596
   Caption = 'Input Data Orang Tua'
@@ -90,6 +90,7 @@ object Form5: TForm5
     Height = 25
     Caption = 'Simpan'
     TabOrder = 1
+    OnClick = b1Click
   end
   object b2: TButton
     Left = 104
@@ -98,6 +99,7 @@ object Form5: TForm5
     Height = 25
     Caption = 'Edit'
     TabOrder = 2
+    OnClick = b2Click
   end
   object b3: TButton
     Left = 192
@@ -114,6 +116,7 @@ object Form5: TForm5
     Height = 25
     Caption = 'Clear Form'
     TabOrder = 4
+    OnClick = b4Click
   end
   object b5: TButton
     Left = 368
@@ -194,6 +197,7 @@ object Form5: TForm5
     TitleFont.Height = -11
     TitleFont.Name = 'Tahoma'
     TitleFont.Style = []
+    OnCellClick = dg1CellClick
     Columns = <
       item
         Alignment = taCenter
@@ -284,8 +288,8 @@ object Form5: TForm5
     ItemHeight = 13
     TabOrder = 14
     Items.Strings = (
-      'Aktif'
-      'TIdak Aktif')
+      'Kandung'
+      'Wali')
   end
   object con1: TZConnection
     ControlsCodePage = cGET_ACP

@@ -38,6 +38,7 @@ type
     procedure b2Click(Sender: TObject);
     procedure dg1CellClick(Column: TColumn);
     procedure b3Click(Sender: TObject);
+    procedure b4Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -98,6 +99,18 @@ begin
   zqry1.SQL.Add('select * from tb_walikelas');
   zqry1.Open;
   ShowMessage('DATA BERHASIL DIHAPUS!');
+end;
+
+procedure TForm4.b4Click(Sender: TObject);
+begin
+  e1.Clear;
+  e2.Clear;
+  c1.Clear;
+  e3.Clear;
+  e4.Clear;
+  e5.Clear;
+  c2.Clear;
+  c3.Clear;
 end;
 
 end.

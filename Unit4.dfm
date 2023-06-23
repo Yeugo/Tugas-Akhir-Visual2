@@ -1,6 +1,6 @@
 object Form4: TForm4
-  Left = 373
-  Top = 151
+  Left = 342
+  Top = 159
   Width = 1118
   Height = 580
   Caption = 'Input Data Wali Kelas'
@@ -110,6 +110,7 @@ object Form4: TForm4
     Height = 25
     Caption = 'Clear Form'
     TabOrder = 4
+    OnClick = b4Click
   end
   object b5: TButton
     Left = 368

@@ -31,6 +31,14 @@ object Form3: TForm3
         Caption = 'Input Data Wali Kelas'
         OnClick = InputDataWaliKelas1Click
       end
+      object InputDataOrangTua1: TMenuItem
+        Caption = 'Input Data Orang Tua'
+        OnClick = InputDataOrangTua1Click
+      end
+      object InputPoinSiswa1: TMenuItem
+        Caption = 'Input Poin Siswa'
+        OnClick = InputPoinSiswa1Click
+      end
     end
   end
 end
