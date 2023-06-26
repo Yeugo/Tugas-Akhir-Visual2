@@ -1,6 +1,6 @@
 object Form5: TForm5
-  Left = 243
-  Top = 190
+  Left = 263
+  Top = 112
   Width = 1013
   Height = 596
   Caption = 'Input Data Orang Tua'

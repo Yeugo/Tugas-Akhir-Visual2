@@ -48,6 +48,7 @@ type
     procedure dg3CellClick(Column: TColumn);
     procedure b3Click(Sender: TObject);
     procedure dg1CellClick(Column: TColumn);
+    procedure b4Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -121,6 +122,17 @@ begin
   c2.Text:=zqry1.Fields[5].AsString;
   e4.Text:=zqry1.Fields[6].AsString;
   c3.Text:=zqry1.Fields[8].AsString;
+end;
+
+procedure TForm6.b4Click(Sender: TObject);
+begin
+  e1.Clear;
+  c1.Clear;
+  e2.Clear;
+  e3.Clear;
+  c2.Clear;
+  e4.Clear;
+  c3.Clear;
 end;
 
 end.
