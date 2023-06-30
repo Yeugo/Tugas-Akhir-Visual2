@@ -44,5 +44,12 @@ object Form3: TForm3
         OnClick = InputHubungan1Click
       end
     end
+    object Laporan1: TMenuItem
+      Caption = 'Laporan'
+      object DataSiswa1: TMenuItem
+        Caption = 'Data Siswa'
+        OnClick = DataSiswa1Click
+      end
+    end
   end
 end

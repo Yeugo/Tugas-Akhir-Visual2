@@ -16,12 +16,15 @@ type
     InputDataOrangTua1: TMenuItem;
     InputPoinSiswa1: TMenuItem;
     InputHubungan1: TMenuItem;
+    Laporan1: TMenuItem;
+    DataSiswa1: TMenuItem;
     procedure InputDataSiswa1Click(Sender: TObject);
     procedure InputDataKelas1Click(Sender: TObject);
     procedure InputDataWaliKelas1Click(Sender: TObject);
     procedure InputDataOrangTua1Click(Sender: TObject);
     procedure InputPoinSiswa1Click(Sender: TObject);
     procedure InputHubungan1Click(Sender: TObject);
+    procedure DataSiswa1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,7 +36,7 @@ var
 
 implementation
 
-uses Unit1, Unit2, Unit4, Unit5, Unit6, Unit7;
+uses Unit1, Unit2, Unit4, Unit5, Unit6, Unit7, Unit9;
 
 {$R *.dfm}
 
@@ -77,6 +80,13 @@ begin
    if Form7=nil then
   Form7:=TForm7.Create(Application);
   Form7.Show;
+end;
+
+procedure TForm3.DataSiswa1Click(Sender: TObject);
+begin
+  if Form9=nil then
+  Form9:=TForm9.Create(Application);
+  Form9.Show;
 end;
 
 end.

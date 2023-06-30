@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 333
-  Top = 101
+  Left = -16
+  Top = 102
   Width = 1250
   Height = 631
   Caption = 'Input Data Siswa'
@@ -440,7 +440,7 @@ object Form1: TForm1
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45103.887676875000000000
-    ReportOptions.LastChange = 45103.905487789350000000
+    ReportOptions.LastChange = 45103.905487789400000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'

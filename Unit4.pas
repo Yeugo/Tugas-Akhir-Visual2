@@ -56,7 +56,7 @@ implementation
 procedure TForm4.b1Click(Sender: TObject);
 begin
   zqry1.SQL.Clear;
-  zqry1.SQL.Add('insert into tb_walikelas values(null,"'+e1.Text+'","'+e2.Text+'","'+c1.Text+'","'+e3.Text+'","'+e4.Text+'","'+e5.Text+'","'+c2.Text+'","'+e3.Text+'")');
+  zqry1.SQL.Add('insert into tb_walikelas values(null,"'+e1.Text+'","'+e2.Text+'","'+c1.Text+'","'+e3.Text+'","'+e4.Text+'","'+e5.Text+'","'+c2.Text+'","'+c3.Text+'")');
   zqry1.ExecSQL ;
 
   zqry1.SQL.Clear;
