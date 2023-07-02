@@ -1,6 +1,6 @@
 object Form4: TForm4
-  Left = 342
-  Top = 159
+  Left = 138
+  Top = 113
   Width = 1118
   Height = 580
   Caption = 'Input Data Wali Kelas'

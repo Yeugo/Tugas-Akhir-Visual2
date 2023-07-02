@@ -1,6 +1,6 @@
 object Form3: TForm3
-  Left = 443
-  Top = 230
+  Left = 345
+  Top = 200
   Width = 471
   Height = 367
   Caption = 'Menu'

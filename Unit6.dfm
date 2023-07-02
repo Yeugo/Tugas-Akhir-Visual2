@@ -1,6 +1,6 @@
 object Form6: TForm6
-  Left = -83
-  Top = 66
+  Left = 46
+  Top = 57
   Width = 1386
   Height = 660
   Caption = 'Input Data Poin'
