@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = -16
-  Top = 102
+  Left = 182
+  Top = 115
   Width = 1250
   Height = 631
   Caption = 'Input Data Siswa'
@@ -11,6 +11,7 @@ object Form1: TForm1
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poScreenCenter
   PixelsPerInch = 96
   TextHeight = 13
   object l1: TLabel

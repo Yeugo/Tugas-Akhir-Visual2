@@ -1,6 +1,6 @@
 object Form8: TForm8
-  Left = 382
-  Top = 210
+  Left = 319
+  Top = 164
   Width = 928
   Height = 480
   Caption = 'Input Data User'
@@ -11,6 +11,7 @@ object Form8: TForm8
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poScreenCenter
   PixelsPerInch = 96
   TextHeight = 13
 end

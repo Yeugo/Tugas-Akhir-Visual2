@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, Menus;
+  Dialogs, Menus, StdCtrls, frxpngimage, ExtCtrls;
 
 type
   TForm3 = class(TForm)
@@ -18,6 +18,11 @@ type
     InputHubungan1: TMenuItem;
     Laporan1: TMenuItem;
     DataSiswa1: TMenuItem;
+    PelanggaranSiswa1: TMenuItem;
+    img1: TImage;
+    l3: TLabel;
+    l1: TLabel;
+    l2: TLabel;
     procedure InputDataSiswa1Click(Sender: TObject);
     procedure InputDataKelas1Click(Sender: TObject);
     procedure InputDataWaliKelas1Click(Sender: TObject);
@@ -25,6 +30,7 @@ type
     procedure InputPoinSiswa1Click(Sender: TObject);
     procedure InputHubungan1Click(Sender: TObject);
     procedure DataSiswa1Click(Sender: TObject);
+    procedure PelanggaranSiswa1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -36,7 +42,7 @@ var
 
 implementation
 
-uses Unit1, Unit2, Unit4, Unit5, Unit6, Unit7, Unit9;
+uses Unit1, Unit2, Unit4, Unit5, Unit6, Unit7, Unit9, Unit11;
 
 {$R *.dfm}
 
@@ -87,6 +93,13 @@ begin
   if Form9=nil then
   Form9:=TForm9.Create(Application);
   Form9.Show;
+end;
+
+procedure TForm3.PelanggaranSiswa1Click(Sender: TObject);
+begin
+  if Form11=nil then
+  Form11:=TForm11.Create(Application);
+  Form11.Show;
 end;
 
 end.

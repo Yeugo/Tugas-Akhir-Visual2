@@ -1,6 +1,6 @@
 object Form6: TForm6
-  Left = 46
-  Top = 57
+  Left = 299
+  Top = 87
   Width = 1386
   Height = 660
   Caption = 'Input Data Poin'
@@ -11,6 +11,7 @@ object Form6: TForm6
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poScreenCenter
   PixelsPerInch = 96
   TextHeight = 13
   object l1: TLabel

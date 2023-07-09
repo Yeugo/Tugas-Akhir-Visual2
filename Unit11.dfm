@@ -1,9 +1,9 @@
-object Form9: TForm9
+object Form11: TForm11
   Left = 191
-  Top = 111
-  Width = 1125
-  Height = 649
-  Caption = 'Laporan Prestasi Siswa'
+  Top = 71
+  Width = 1132
+  Height = 618
+  Caption = 'Laporan Pelanggaran Siswa'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -979,87 +979,6 @@ object Form9: TForm9
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset3."poin"]')
-          ParentFont = False
-        end
-      end
-      object PageFooter1: TfrxPageFooter
-        Height = 283.464750000000000000
-        Top = 544.252320000000000000
-        Width = 718.110700000000000000
-        object Memo26: TfrxMemoView
-          Left = 272.126160000000000000
-          Width = 192.756030000000000000
-          Height = 18.897650000000000000
-          ShowHint = False
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
-          Font.Height = -13
-          Font.Name = 'Arial'
-          Font.Style = []
-          HAlign = haCenter
-          Memo.UTF8 = (
-            'Banjarmasin, ....................')
-          ParentFont = False
-        end
-        object Memo27: TfrxMemoView
-          Left = 11.338590000000000000
-          Top = 60.472480000000000000
-          Width = 154.960730000000000000
-          Height = 109.606370000000000000
-          ShowHint = False
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
-          Font.Height = -13
-          Font.Name = 'Arial'
-          Font.Style = []
-          HAlign = haCenter
-          Memo.UTF8 = (
-            'Orang Tua Siswa/Wali'
-            ''
-            ''
-            ''
-            '....................')
-          ParentFont = False
-        end
-        object Memo28: TfrxMemoView
-          Left = 555.590910000000000000
-          Top = 56.692950000000000000
-          Width = 154.960730000000000000
-          Height = 109.606370000000000000
-          ShowHint = False
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
-          Font.Height = -13
-          Font.Name = 'Arial'
-          Font.Style = []
-          HAlign = haCenter
-          Memo.UTF8 = (
-            'Wali Kelas'
-            ''
-            ''
-            ''
-            '....................')
-          ParentFont = False
-        end
-        object Memo29: TfrxMemoView
-          Left = 291.023810000000000000
-          Top = 181.417440000000000000
-          Width = 154.960730000000000000
-          Height = 102.047310000000000000
-          ShowHint = False
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
-          Font.Height = -13
-          Font.Name = 'Arial'
-          Font.Style = []
-          HAlign = haCenter
-          Memo.UTF8 = (
-            'Mengetahui'
-            'Kepala Madrasah,'
-            ''
-            ''
-            ''
-            '....................')
           ParentFont = False
         end
       end

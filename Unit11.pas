@@ -1,31 +1,31 @@
-unit Unit9;
+unit Unit11;
 
 interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, Grids, DBGrids, DB, ZAbstractRODataset, ZAbstractDataset,
-  ZDataset, ZAbstractConnection, ZConnection, frxClass, frxDBSet, StdCtrls;
+  Dialogs, frxClass, frxDBSet, DB, ZAbstractRODataset, ZAbstractDataset,
+  ZDataset, ZAbstractConnection, ZConnection, StdCtrls, Grids, DBGrids;
 
 type
-  TForm9 = class(TForm)
+  TForm11 = class(TForm)
+    l1: TLabel;
+    l2: TLabel;
+    l3: TLabel;
+    dg1: TDBGrid;
+    b1: TButton;
+    dg2: TDBGrid;
+    dg3: TDBGrid;
     con1: TZConnection;
     zqry1: TZQuery;
     d1: TDataSource;
     zqry2: TZQuery;
     d2: TDataSource;
-    dg1: TDBGrid;
-    l1: TLabel;
     frxReport1: TfrxReport;
     frxdb1: TfrxDBDataset;
     frxdb2: TfrxDBDataset;
-    b1: TButton;
-    dg2: TDBGrid;
     zqry3: TZQuery;
     d3: TDataSource;
-    dg3: TDBGrid;
-    l2: TLabel;
-    l3: TLabel;
     frxdb3: TfrxDBDataset;
     procedure dg1CellClick(Column: TColumn);
     procedure b1Click(Sender: TObject);
@@ -36,7 +36,7 @@ type
   end;
 
 var
-  Form9: TForm9;
+  Form11: TForm11;
   id : string;
   nm : string;
 
@@ -44,7 +44,7 @@ implementation
 
 {$R *.dfm}
 
-procedure TForm9.dg1CellClick(Column: TColumn);
+procedure TForm11.dg1CellClick(Column: TColumn);
 begin
   id:=zqry1.Fields[0].AsString;
   nm:=zqry1.Fields[1].AsString;
@@ -57,12 +57,11 @@ begin
 
   zqry3.Active:=True;
   zqry3.SQL.Clear;
-  zqry3.SQL.Add('SELECT * FROM tb_input_poin WHERE nm_siswa = "'+nm+'" AND jenis="Prestasi"');
+  zqry3.SQL.Add('SELECT * FROM tb_input_poin WHERE nm_siswa = "'+nm+'" AND jenis="Pelanggaran"');
   zqry3.Open;
-
 end;
 
-procedure TForm9.b1Click(Sender: TObject);
+procedure TForm11.b1Click(Sender: TObject);
 begin
   frxReport1.ShowReport();
 end;
